@@ -1,0 +1,160 @@
+.firstsection ,.fithsection{
+  
+    background: #1F2937;
+    color: #f9faf8;
+   
+    
+}
+.first{
+    display: flex;
+    
+}
+.first div{
+    flex: 1 1 auto;
+}
+.second{
+    display: flex;
+   
+}
+.second div{
+   margin-left: 150; 
+    margin-bottom: 50; 
+    margin-top: 50; 
+    
+     
+}
+div p{
+
+   size: 18px;
+   color: #E5E7EB;
+   width: 350;
+  
+ 
+}
+h2{
+   font-size: 48px;
+    font-weight: bolder;
+   color: #E5E7EB;
+   
+   width: 350;
+}
+.button {
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  .links a{
+    color: #E5E7EB;
+    text-decoration: none;
+    margin-left: 20;
+    size: 18px;
+  }
+  
+div .links{
+    display: flex;
+    margin-left: 300;  
+}
+div li{
+    margin: 0 10px;
+    
+}
+
+.secondsection p{
+    color: #1F2937;
+    width: 160;
+    text-align: justify;
+   
+}
+.subs{
+   display: flex;
+   margin: 10;
+}
+.subs div{
+    flex: auto;
+    
+}
+.first h1{
+    size: 24px;
+    color: #f9faf8;
+    margin-left: 150;
+    
+}
+img{
+    margin-left: auto;
+}
+.secondsection h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin-left: 500;
+    width: 500;
+} 
+.subs{
+    display: flex;
+}
+.subs img{
+    border:5px #3882f6;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+} 
+.subs p{
+
+}
+.thirdsection{
+    background-color: #E5E7EB;
+}
+.thirdsection .quote{
+    color:#1F2937;
+    font-size: 36px;
+    font-style: italic;
+    width: 720;
+    margin-left: 400;
+}
+.thirdsection .author{
+    color: black;
+    font-weight: bolder;
+    margin-left: 800;
+    font-size: 24px;
+}
+.fourthsection{
+    display: flex;
+    background-color: #3882f6;
+    margin: 150;
+    
+}
+.fourthsection h2{
+    font-size: 24px;
+}
+.fourthsection div{
+    flex: auto;
+    margin-left: 200;   
+    
+}
+.buttons {
+    background-color: #3882f6;
+    border: 20px white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+.foot{
+    height: 70;
+    margin-left: 500;
+    
+}
