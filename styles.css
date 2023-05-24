@@ -1,7 +1,13 @@
+body, html {
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
 .firstsection ,.fithsection{
   
     background: #1F2937;
     color: #f9faf8;
+    width: auto;
    
     
 }
@@ -31,11 +37,20 @@ div p{
   
  
 }
+.secondsection{
+    border: 3px solid black;
+    
+}
+.head{
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+}
 h2{
    font-size: 48px;
     font-weight: bolder;
    color: #E5E7EB;
-   
    width: 350;
 }
 .button {
@@ -68,18 +83,17 @@ div li{
 }
 
 .secondsection p{
+    display: flex;
     color: #1F2937;
     width: 160;
-    text-align: justify;
+   
    
 }
 .subs{
    display: flex;
    margin: 10;
-}
-.subs div{
-    flex: auto;
-    
+    justify-content: center;
+    align-items: center;
 }
 .first h1{
     size: 24px;
@@ -95,41 +109,50 @@ img{
     font-weight: bolder;
     color: #1F2937;
     text-align: center;
-    margin-left: 500;
     width: 500;
 } 
 .subs{
     display: flex;
 }
 .subs img{
-    border:5px #3882f6;
-    height: 100px;
-    width: 100px;
-    padding: 10px;
+    border:3px solid #3882f6;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    /*padding: 10px;*/
 } 
 .subs p{
-
+    color: black;
+    text-align:center;
+    width: 150px;
 }
 .thirdsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #E5E7EB;
+   
 }
 .thirdsection .quote{
     color:#1F2937;
     font-size: 36px;
     font-style: italic;
-    width: 720;
-    margin-left: 400;
-}
-.thirdsection .author{
+   width: 730px; 
+   /* border: 3px solid black;*/
+    }
+.thirdsection cite{
     color: black;
     font-weight: bolder;
-    margin-left: 800;
+    margin-left: 500px;
+    margin-top: 0px;
     font-size: 24px;
+   /* border: 3px solid black;*/
 }
 .fourthsection{
     display: flex;
     background-color: #3882f6;
     margin: 150;
+    border-radius: 5px;
     
 }
 .fourthsection h2{
@@ -140,21 +163,44 @@ img{
     margin-left: 200;   
     
 }
-.buttons {
+.fithsection{
+    
+}
+button{
     background-color: #3882f6;
     border: 20px white;
     color: white;
     padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 12px;
+    height: 50px;
+    width: 150px;
+  }
+  .btn
+  {
+   
+    border: 2px solid white;
+    
+  }
+  .bt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 .foot{
     height: 70;
-    margin-left: 500;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subOne, .subtwo, .subthree, .subfour{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    margin: 10px;
+    /*border: 3px solid black;*/
 }
